@@ -1,4 +1,4 @@
-You can change enemies' stats by modifying StreamingAssets/enemies/txt file
+You can change enemies' stats by modifying StreamingAssets/enemies.txt file
 
 Assets used:<br>
 sounds: https://assetstore.unity.com/packages/audio/sound-fx/8bit-sfx-01-shooting-game-lite-15931<br>
