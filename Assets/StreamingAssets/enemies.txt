@@ -1,3 +1,6 @@
+Edit those to change enemy stats
+format: [<enemy type><stat>]=<value at easy>, <value at medium>, <value at hard>
+
 [WeakHealth]=1, 2, 3
 [WeakDmg]=1, 1, 2
 [WeakReload]=5000, 5000, 4900
