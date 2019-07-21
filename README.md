@@ -1,3 +1,11 @@
+Controls
+WASD: move
+Space: shoot
+Escape: pause
+
+Yellow pickups increase firepower (up to 3). Current power is displayed on yellow bar
+Red pickups: restore health.
+
 You can change enemies' stats by modifying StreamingAssets/enemies.txt file
 
 Assets used:<br>
