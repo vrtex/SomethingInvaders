@@ -9,25 +9,12 @@ public class Pause : MonoBehaviour
     public WaveManager waveManager;
 
     private bool paused = false;
-    private bool keyDown;
 
-    private void Start()
-    {
-        keyDown = Input.GetAxis("Pause") > 0.9f;
-    }
 
     private void Update()
     {
-        if(keyDown)
-        {
-            keyDown = Input.GetAxis("Pause") > 0.9f;
-            return;
-        }
-        else if(Input.GetAxis("Pause") > 0.9f)
-        {
-            keyDown = true;
+        if(Input.GetButtonDown("Pause"))
             TogglePause();
-        }
     }
 
     public void TogglePause()
@@ -51,11 +38,6 @@ public class Pause : MonoBehaviour
         pauseUI.alpha = paused ? 1 : 0;
         pauseUI.interactable = paused;
         pauseUI.blocksRaycasts = paused;
-    }
-
-    public void Resume()
-    {
-
     }
 
     public void Exit()
