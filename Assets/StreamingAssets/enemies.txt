@@ -1,0 +1,12 @@
+[WeakHealth]=1, 2, 3
+[WeakDmg]=1, 1, 2
+[WeakReload]=5000, 5000, 4900
+[WeakScore]=1, 1, 1
+[MediumHealth]=2, 2, 3
+[MediumDmg]=1, 2, 3
+[MediumReload]=5000, 4900, 4850
+[MediumScore]=2, 2, 2
+[StrongHealth]=4, 5, 6
+[StrongDmg]=2, 3, 4
+[StrongReload]=5120, 5110, 5100
+[StrongScore]=5, 5, 7
